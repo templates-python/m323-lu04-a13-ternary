@@ -8,8 +8,7 @@ def absolute_value(num):
     Returns:
     - float: Der absolute Wert der gegebenen Zahl.
     """
-    # TODO: Implementieren Sie die Funktion
-    pass
+    return num if num >= 0 else -num
 
 
 # Zum Testen
