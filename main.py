@@ -1,12 +1,19 @@
-def calculate():
+def absolute_value(num):
     """
-    calculates the total
-    :return: None
+    Berechnet den absoluten Wert einer gegebenen Zahl unter Verwendung des Ternären Operators.
+
+    Args:
+    - num (float): Die Zahl, deren absoluter Wert berechnet werden soll.
+
+    Returns:
+    - float: Der absolute Wert der gegebenen Zahl.
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    # TODO: Implementieren Sie die Funktion
+    pass
 
 
+# Zum Testen
 if __name__ == '__main__':
-    calculate()
+    print(absolute_value(-5.5))  # Erwartete Ausgabe: 5.5
+    print(absolute_value(0))  # Erwartete Ausgabe: 0
+    print(absolute_value(3.14))  # Erwartete Ausgabe: 3.14
