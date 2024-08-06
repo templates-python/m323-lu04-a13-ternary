@@ -1,0 +1,8 @@
+[
+  {
+    "name": "test_absolute_value",
+    "function": "test_absolute_value",
+    "timeout": 10,
+    "points": 1
+  }
+]
