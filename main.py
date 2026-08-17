@@ -1,3 +1,8 @@
+"""Berechne den absoluten Wert einer Zahl.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/ternary
+"""
+
 def absolute_value(num):
     """
     Berechnet den absoluten Wert einer gegebenen Zahl unter Verwendung des Ternären Operators.
